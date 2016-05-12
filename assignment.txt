@@ -1,0 +1,33 @@
+            
+for each customer_order in list_of_orders
+    initialize label as an array list
+    while not end_of_file do,
+
+        read details
+        
+        //join up title, first and last names to come up with a full name
+        
+        full_name=details->title + details->first_name + details->last_name;
+        
+        //join up street address, city, state and zip code to form an address
+        
+        address=details->street_address + details-> city + details->zip_code
+        
+        //store the results into label
+        
+        add full_name into label
+        add address into label
+        
+               for (int i=1 to number_of_boxes)
+                   box_number="Box" + i +"of" + number_of_boxes
+                   
+                   add box_number to label
+                   
+                   //now we can print the label
+                    
+                   for each (item : label)
+                        print item
+                   print a line break
+       return
+       
+                                      
